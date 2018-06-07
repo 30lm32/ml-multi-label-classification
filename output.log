@@ -1,0 +1,298 @@
+The columns of this dataset are: id, name, description, price, shop, brand, labels
+Here is how a few entries look like
+       ...
+191726 ...
+79096  ...
+179541 ...
+
+[3 rows x 7 columns]
+cluster: 0, id: 0, label: label_anzüge
+cluster: 0, id: 22, label: label_kostüme
+cluster: 0, id: 16, label: label_hosen
+cluster: 0, id: 20, label: label_kleider
+cluster: 1, id: 2, label: label_ballerinas
+cluster: 1, id: 5, label: label_bootsschuhe
+cluster: 1, id: 10, label: label_halbschuhe
+cluster: 1, id: 41, label: label_sneaker
+cluster: 2, id: 40, label: label_shirts
+cluster: 2, id: 50, label: label_tops
+cluster: 2, id: 3, label: label_blusen
+cluster: 2, id: 13, label: label_hemden
+cluster: 3, id: 15, label: label_homewear
+cluster: 3, id: 33, label: label_pullover
+cluster: 3, id: 4, label: label_boleros
+cluster: 3, id: 47, label: label_strickjacken
+cluster: 4, id: 17, label: label_hüte
+cluster: 4, id: 6, label: label_caps
+cluster: 4, id: 28, label: label_mützen
+cluster: 4, id: 56, label: label_westen
+cluster: 5, id: 32, label: label_plateau schuhe
+cluster: 5, id: 14, label: label_high heels
+cluster: 5, id: 34, label: label_pumps
+cluster: 6, id: 57, label: label_winterschuhe
+cluster: 6, id: 44, label: label_stiefel
+cluster: 6, id: 45, label: label_stiefeletten
+cluster: 7, id: 48, label: label_stulpen
+cluster: 7, id: 1, label: label_bademode
+cluster: 7, id: 58, label: label_wäsche
+cluster: 8, id: 12, label: label_hausschuhe
+cluster: 9, id: 55, label: label_wedges
+cluster: 9, id: 42, label: label_sommerschuhe
+cluster: 9, id: 36, label: label_sandalen
+cluster: 9, id: 37, label: label_sandaletten
+cluster: 9, id: 31, label: label_pantoletten
+cluster: 9, id: 59, label: label_zehentrenner
+cluster: 10, id: 24, label: label_lackschuhe
+cluster: 10, id: 25, label: label_lederschuhe
+cluster: 11, id: 38, label: label_schals
+cluster: 11, id: 53, label: label_tücher
+cluster: 12, id: 18, label: label_jacken
+cluster: 12, id: 27, label: label_mäntel
+cluster: 13, id: 8, label: label_geldbeutel
+cluster: 13, id: 49, label: label_taschen
+cluster: 14, id: 7, label: label_fliegen
+cluster: 14, id: 23, label: label_krawatten
+cluster: 15, id: 29, label: label_ohrenwärmer
+cluster: 15, id: 46, label: label_stirnbänder
+cluster: 16, id: 19, label: label_jeans
+cluster: 17, id: 43, label: label_sonnenbrillen
+cluster: 18, id: 35, label: label_röcke
+cluster: 19, id: 30, label: label_overalls
+cluster: 20, id: 39, label: label_schmuck
+cluster: 21, id: 9, label: label_gürtel
+cluster: 22, id: 51, label: label_trachtenmode
+cluster: 23, id: 21, label: label_kopfhörer
+cluster: 24, id: 26, label: label_manschettenknöpfe
+cluster: 25, id: 11, label: label_handschuhe
+cluster: 26, id: 54, label: label_uhren
+cluster: 27, id: 52, label: label_trachtenschuhe
+           cluster_id
+                count
+cluster_id
+23                  1
+24                  2
+17                  7
+19                  7
+14                 10
+22                 11
+16                 72
+4                  74
+25                 95
+26                132
+21                161
+8                 308
+11                324
+9                1997
+18               3935
+20               6052
+3                8408
+2               10132
+12              12138
+1               13698
+6               14030
+7               15226
+13              23889
+0               25615
+5               30778
+10              32898 200000
+[nltk_data] Downloading package stopwords to /home/erdi/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Sleeping 10 seconds
+Fold#1 Transformation was started
+Fold#1 was started...
+Sleeping 10 seconds
+Fold#2 Transformation was started
+Fold#2 was started...
+Sleeping 10 seconds
+Fold#3 Transformation was started
+Fold#3 was started...
+Sleeping 10 seconds
+Fold#4 Transformation was started
+Fold#4 was started...
+Sleeping 10 seconds
+Fold#5 Transformation was started
+Fold#5 was started...
+Sleeping 10 seconds
+Fold#6 Transformation was started
+Fold#6 was started...
+Sleeping 10 seconds
+Fold#7 Transformation was started
+Fold#7 was started...
+Sleeping 10 seconds
+Fold#8 Transformation was started
+Fold#1 Transformation was done
+Fold#1 Model creation was started
+Fold#8 was started...
+Sleeping 10 seconds
+Fold#9 Transformation was started
+Fold#9 was started...
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+Fold#2 Transformation was done
+Fold#2 Model creation was started
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[5]	train-1-9's auc: 0.107923	valid-1-9's auc: 0.117287
+Training until validation scores don't improve for 50 rounds.
+[10]	train-1-9's auc: 0.0924466	valid-1-9's auc: 0.101234
+[5]	train-2-9's auc: 0.111791	valid-2-9's auc: 0.120579
+[10]	train-2-9's auc: 0.102047	valid-2-9's auc: 0.110488
+[15]	train-1-9's auc: 0.084417	valid-1-9's auc: 0.0943868
+[15]	train-2-9's auc: 0.0917651	valid-2-9's auc: 0.101193
+[20]	train-1-9's auc: 0.0800121	valid-1-9's auc: 0.0910575
+[20]	train-2-9's auc: 0.0880013	valid-2-9's auc: 0.0974932
+[25]	train-1-9's auc: 0.0780614	valid-1-9's auc: 0.0896935
+Fold#3 Transformation was done
+Fold#3 Model creation was started
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[25]	train-2-9's auc: 0.0857655	valid-2-9's auc: 0.0951665
+[30]	train-1-9's auc: 0.0760543	valid-1-9's auc: 0.0878156
+[5]	train-3-9's auc: 0.0985287	valid-3-9's auc: 0.112739
+[30]	train-2-9's auc: 0.0845204	valid-2-9's auc: 0.0933849
+[35]	train-1-9's auc: 0.0738205	valid-1-9's auc: 0.0860645
+[10]	train-3-9's auc: 0.0959508	valid-3-9's auc: 0.109855
+[35]	train-2-9's auc: 0.0832254	valid-2-9's auc: 0.0920086
+[40]	train-1-9's auc: 0.0722898	valid-1-9's auc: 0.0846739
+[15]	train-3-9's auc: 0.0938041	valid-3-9's auc: 0.107294
+Fold#4 Transformation was done
+Fold#4 Model creation was started
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[40]	train-2-9's auc: 0.0810696	valid-2-9's auc: 0.0903064
+[45]	train-1-9's auc: 0.0713381	valid-1-9's auc: 0.0839948
+[20]	train-3-9's auc: 0.0922496	valid-3-9's auc: 0.106147
+[5]	train-4-9's auc: 0.105084	valid-4-9's auc: 0.11841
+Fold#5 Transformation was done
+Fold#5 Model creation was started
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[50]	train-1-9's auc: 0.0701824	valid-1-9's auc: 0.0830518
+[45]	train-2-9's auc: 0.0793943	valid-2-9's auc: 0.0888348
+Early stopping, best iteration is:
+[1]	train-1-9's auc: 0.140698	valid-1-9's auc: 0.15163
+Fold#1 Model creation was done
+Fold#6 Transformation was done
+[25]	train-3-9's auc: 0.0872909	valid-3-9's auc: 0.101074
+Fold#6 Model creation was started
+[10]	train-4-9's auc: 0.0985169	valid-4-9's auc: 0.111631
+Fold#0 was done...
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[5]	train-5-9's auc: 0.113005	valid-5-9's auc: 0.124416
+[50]	train-2-9's auc: 0.0782503	valid-2-9's auc: 0.0879372
+[15]	train-4-9's auc: 0.0888531	valid-4-9's auc: 0.101095
+Fold#7 Transformation was done
+Early stopping, best iteration is:
+[1]	train-2-9's auc: 0.141572	valid-2-9's auc: 0.147816
+[30]	train-3-9's auc: 0.0842966	valid-3-9's auc: 0.0979504
+Fold#2 Model creation was done
+Fold#7 Model creation was started
+Fold#1 was done...
+[5]	train-6-9's auc: 0.112856	valid-6-9's auc: 0.122307
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[10]	train-5-9's auc: 0.0993326	valid-5-9's auc: 0.110636
+Fold#8 Transformation was done
+Fold#8 Model creation was started
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 50 rounds.
+[20]	train-4-9's auc: 0.0853084	valid-4-9's auc: 0.097509
+Fold#9 Transformation was done
+Fold#9 Model creation was started
+[10]	train-6-9's auc: 0.102128	valid-6-9's auc: 0.111832
+[35]	train-3-9's auc: 0.0817678	valid-3-9's auc: 0.0957246
+[5]	train-7-9's auc: 0.0956218	valid-7-9's auc: 0.108031
+Training until validation scores don't improve for 50 rounds.
+[15]	train-5-9's auc: 0.0922752	valid-5-9's auc: 0.104598
+[5]	train-8-9's auc: 0.103952	valid-8-9's auc: 0.110227
+[25]	train-4-9's auc: 0.0836023	valid-4-9's auc: 0.0959919
+[15]	train-6-9's auc: 0.094003	valid-6-9's auc: 0.104214
+[5]	train-9-9's auc: 0.107863	valid-9-9's auc: 0.121271
+[40]	train-3-9's auc: 0.0796659	valid-3-9's auc: 0.0939135
+[10]	train-7-9's auc: 0.0923412	valid-7-9's auc: 0.105702
+[20]	train-5-9's auc: 0.0838946	valid-5-9's auc: 0.094989
+[10]	train-8-9's auc: 0.100678	valid-8-9's auc: 0.106789
+[20]	train-6-9's auc: 0.088812	valid-6-9's auc: 0.099379
+[10]	train-9-9's auc: 0.0946581	valid-9-9's auc: 0.10691
+[30]	train-4-9's auc: 0.0803567	valid-4-9's auc: 0.0929126
+[45]	train-3-9's auc: 0.0781239	valid-3-9's auc: 0.0925228
+[15]	train-7-9's auc: 0.0895002	valid-7-9's auc: 0.103513
+[25]	train-5-9's auc: 0.0801	valid-5-9's auc: 0.0913784
+[15]	train-8-9's auc: 0.0950923	valid-8-9's auc: 0.101501
+[15]	train-9-9's auc: 0.0875626	valid-9-9's auc: 0.100222
+[25]	train-6-9's auc: 0.0867919	valid-6-9's auc: 0.0970919
+[35]	train-4-9's auc: 0.0782393	valid-4-9's auc: 0.0912739
+[50]	train-3-9's auc: 0.0770047	valid-3-9's auc: 0.091601
+[20]	train-7-9's auc: 0.0871206	valid-7-9's auc: 0.101128
+Early stopping, best iteration is:
+[1]	train-3-9's auc: 0.139869	valid-3-9's auc: 0.152281
+Fold#3 Model creation was done
+Fold#2 was done...
+[30]	train-5-9's auc: 0.0774286	valid-5-9's auc: 0.089039
+[20]	train-8-9's auc: 0.0907779	valid-8-9's auc: 0.0975836
+[20]	train-9-9's auc: 0.082834	valid-9-9's auc: 0.0960127
+[40]	train-4-9's auc: 0.076779	valid-4-9's auc: 0.0899575
+[30]	train-6-9's auc: 0.085637	valid-6-9's auc: 0.0961063
+[25]	train-7-9's auc: 0.0854039	valid-7-9's auc: 0.0994157
+[35]	train-5-9's auc: 0.0754781	valid-5-9's auc: 0.0872053
+[25]	train-8-9's auc: 0.0869697	valid-8-9's auc: 0.0940483
+[25]	train-9-9's auc: 0.0809011	valid-9-9's auc: 0.0942674
+[45]	train-4-9's auc: 0.0761103	valid-4-9's auc: 0.089399
+[35]	train-6-9's auc: 0.0849423	valid-6-9's auc: 0.0956948
+[30]	train-7-9's auc: 0.0834244	valid-7-9's auc: 0.0975196
+[40]	train-5-9's auc: 0.074631	valid-5-9's auc: 0.0866144
+[30]	train-8-9's auc: 0.0845549	valid-8-9's auc: 0.0917915
+[30]	train-9-9's auc: 0.080083	valid-9-9's auc: 0.093372
+[50]	train-4-9's auc: 0.0749927	valid-4-9's auc: 0.0886998
+[40]	train-6-9's auc: 0.0840531	valid-6-9's auc: 0.0950879
+Early stopping, best iteration is:
+[1]	train-4-9's auc: 0.140418	valid-4-9's auc: 0.155672
+Fold#4 Model creation was done
+Fold#3 was done...
+[35]	train-7-9's auc: 0.0813	valid-7-9's auc: 0.095672
+[35]	train-8-9's auc: 0.0820947	valid-8-9's auc: 0.089683
+[45]	train-5-9's auc: 0.0734109	valid-5-9's auc: 0.0855171
+[35]	train-9-9's auc: 0.0797705	valid-9-9's auc: 0.093087
+[45]	train-6-9's auc: 0.0823902	valid-6-9's auc: 0.0938261
+[40]	train-7-9's auc: 0.0796725	valid-7-9's auc: 0.094318
+[40]	train-8-9's auc: 0.0806445	valid-8-9's auc: 0.0885315
+[50]	train-5-9's auc: 0.0728999	valid-5-9's auc: 0.0852475
+Early stopping, best iteration is:
+[1]	train-5-9's auc: 0.134679	valid-5-9's auc: 0.146732
+Fold#5 Model creation was done
+Fold#4 was done...
+[40]	train-9-9's auc: 0.0784562	valid-9-9's auc: 0.0919754
+[50]	train-6-9's auc: 0.0808745	valid-6-9's auc: 0.0927554
+[45]	train-7-9's auc: 0.0787919	valid-7-9's auc: 0.0936607
+Early stopping, best iteration is:
+[1]	train-6-9's auc: 0.137458	valid-6-9's auc: 0.144797
+Fold#6 Model creation was done
+Fold#5 was done...
+[45]	train-8-9's auc: 0.0790587	valid-8-9's auc: 0.0871255
+[45]	train-9-9's auc: 0.0771824	valid-9-9's auc: 0.0908472
+[50]	train-7-9's auc: 0.0777159	valid-7-9's auc: 0.0926176
+[50]	train-8-9's auc: 0.0772759	valid-8-9's auc: 0.0856134
+Early stopping, best iteration is:
+[1]	train-7-9's auc: 0.128127	valid-7-9's auc: 0.142217
+Fold#7 Model creation was done
+Fold#6 was done...
+Early stopping, best iteration is:
+[1]	train-8-9's auc: 0.130954	valid-8-9's auc: 0.137766
+Fold#8 Model creation was done
+Fold#7 was done...
+[50]	train-9-9's auc: 0.0762624	valid-9-9's auc: 0.0903136
+Early stopping, best iteration is:
+[1]	train-9-9's auc: 0.142453	valid-9-9's auc: 0.158097
+Fold#9 Model creation was done
+Fold#8 was done...
+/home/erdi/Desktop/quora/dockerfiles/quora_docker/data/stylight/ml-screening-task-Apr-2018/classification/draft.py:226: RuntimeWarning: invalid value encountered in true_divide
+  pre_macro[c] = np.mean(pre_scores[c])
+/home/erdi/Desktop/quora/dockerfiles/quora_docker/data/kaggle/jigsaw/input/venv/lib/python3.5/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Process finished with exit code 0
